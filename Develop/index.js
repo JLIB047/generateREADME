@@ -4,7 +4,7 @@ const generateReadme = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-const promptUser = () => {
+const promptUser = data => {
     return inquirer.prompt([
         {
             type: 'input', 
@@ -60,17 +60,10 @@ const promptUser = () => {
         },
         {
             type: 'rawlist',
-            name: 'liscense',
-            message: 'What liscense was used in this app?"',
+            name: 'license',
+            message: 'What license was used in this app?"',
             choices: ['MIT', 'Apache', 'Boost'],
-            validate: liscenseName => {
-                if(liscenseName){
-                    return(true);
-                } else {
-                    console.log('I need value to continue.');
-                    return false;
-                }
-            }
+            
         },
         {
            type: 'input',
@@ -115,12 +108,13 @@ const promptUser = () => {
 }   
 
 promptUser()
-    .then(data =>{
+    .then(data => {
         return generateReadme(data);
     })
+    
 
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 //function init() {}
