@@ -1,11 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderBadgeLink(data) {
-  //take lisence type as argument
-  //send the data structure to this function 
-  //add the correct badge an license link to the data structure 
-  //return the entire structure back 
-  if(data.license = 'MIT'){
+//const generateBadgeLink = badgeText =>{
+  
+  /*if(promptUser.license = 'MIT'){
     const badgeLink = 'https://img.shields.io/badge/License-MIT-yellow.svg';
     const licenseLink = 'https://opensource.org/licenses/MIT';
   }
@@ -18,8 +15,8 @@ function renderBadgeLink(data) {
     const licenseLink = 'https://www.boost.org/LICENSE_1_0.txt';
 
   }
-  renderLicenseSection(badgeLink = badgeLink, licenseLink = licenseLink);
-}
+  renderLicenseSection(badgeLink = badgeLink, licenseLink = licenseLink);*/
+
   //if liscense = MIT 
     //call appropriate liscense code 
 // TODO: Create a function that returns the license link
@@ -28,15 +25,17 @@ function renderBadgeLink(data) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection() {
- console.log(badgeLink);
- console.log(licenseLink);
-}
+//function renderLicenseSection() {
+ //console.log(badgeLink);
+ //console.log(licenseLink);
+//}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  [![badge](https://ing.shield.io/badge/License-${data.license}-brightgreen)]
+  
   # Table on Contents 
   * [Description](#Description)
   * [Installation](#Installation)
@@ -46,21 +45,19 @@ function generateMarkdown(data) {
   * [Questions](#Questions)
   
   ## Description
-
+    ${data.description}
   ## Installation
-
+    ${data.instllation}
   ## Usage
-
-  ## Licenses
-
+    ${data.usage}
   ## Contributions 
-
+    ${data.contributions}
   ## Questions 
   Email me or reach out on Github 
-  <br/>
-  Find me on Github: [](https://github.com())<br/>
-  <br/>
-  Email me with any questions: {} <br/><br/>
+    
+  Find me on Github:(https://github.com/${data.username})
+  
+  Email me with any questions: ${data.email} 
   
 
 `;
