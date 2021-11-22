@@ -15,7 +15,7 @@ const writeFile = fileContent => {
     });
 };
 
-const copyFile = fileContent => {
+/*const copyFile = fileContent => {
     return new Promise((resolve, reject) => {
         fs.copyFile("./dist/README.md", fileContent, err => {
             if(err){
@@ -28,6 +28,6 @@ const copyFile = fileContent => {
             });
         });
     });
-};
+};*/
 
-module.exports = { writeFile, copyFile };
+module.exports = { writeFile };

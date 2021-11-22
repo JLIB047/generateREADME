@@ -1,4 +1,4 @@
-# README Generator
+# jjj
 
   [![badge](https://ing.shield.io/badge/License-MIT-brightgreen)]
   
@@ -11,18 +11,18 @@
   * [Questions](#Questions)
   
   ## Description
-    generate a readme 
+    jjj
   ## Installation
     undefined
   ## Usage
     undefined
   ## Contributions 
-    Jason Libertelli 
+    jjj
   ## Questions 
   Email me or reach out on Github 
     
-  Find me on Github:(https://github.com/JLIB047)
+  Find me on Github:(https://github.com/jjj)
   
-  Email me with any questions: jason.libertelli@gmail.com 
+  Email me with any questions: jjj 
   
 
