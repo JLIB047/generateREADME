@@ -14,5 +14,7 @@ a README file is generated in the disttibution(dist) directory.
 ## Links to Video Instructions / Github Repo 
 https://watch.screencastify.com/v/RK3k4nI1EIZhJ0hi6DqL
 
+https://github.com/JLIB047/generateREADME
+
 ## Contributions 
 Made with love by Jason Libertelli
