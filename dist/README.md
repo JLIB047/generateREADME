@@ -1,28 +1,27 @@
-# jjj
+# Readme Generator
 
-  [![badge](https://ing.shield.io/badge/License-MIT-brightgreen)]
-  
-  # Table on Contents 
-  * [Description](#Description)
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Liscense](#Liscense)
-  * [Contributions](#Contributions)
-  * [Questions](#Questions)
+  ![Badge](https://img.shields.io/badge/License-MIT-lightblue.svg)
+
+  ## Table on Contents 
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributions](#contributions)
+  * [Questions](#questions)
   
   ## Description
-    jjj
+    generates a readme through the command line 
   ## Installation
-    undefined
+    Install 
   ## Usage
-    undefined
+    Enter answers to the command line prompts 
   ## Contributions 
-    jjj
+    Jason Libertelli
   ## Questions 
   Email me or reach out on Github 
     
-  Find me on Github:(https://github.com/jjj)
+  Find me on Github:(https://github.com/JLIB047)
   
-  Email me with any questions: jjj 
+  Email me with any questions: jason.libertelli@gmail.com 
   
 

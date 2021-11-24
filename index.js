@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const generateReadme = require('./src/generateMarkdown.js');
-//const fs = require('fs');
 const { writeFile } = require('./utils/generate-Readme.js');
 
 // TODO: Create an array of questions for user input
@@ -48,7 +47,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'Usage',
+            name: 'usage',
             message: 'Please enter instuctions on how to use your app.',
             validate:  usageDesc => {
                 if(usageDesc){
@@ -63,7 +62,7 @@ const promptUser = () => {
             type: 'rawlist',
             name: 'license',
             message: 'What license was used in this app?"',
-            choices: ['MIT', 'Apache', 'Boost'],
+            choices: ['MIT', 'Apache_2.0', 'Boost_1.0'],
             
         },
         {
@@ -82,7 +81,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'username',
-            message: "Please enter a link to your Github",
+            message: "Please enter your Github user name.",
             validate: gitName => {
                 if(gitName){
                     return(true);
@@ -125,14 +124,4 @@ promptUser()
 
     
 
-// TODO: Create a function to initialize app
-/*function init() {
-   inquirer.prompt()
-        .then(function(data){
-            writeToFile("README.md", generateReadme(data));
-                        console.log(data)
-       })
-}
 
-// Function call to initialize app
-init();*/
